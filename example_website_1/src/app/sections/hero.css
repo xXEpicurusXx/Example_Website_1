@@ -1,0 +1,64 @@
+#hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(https://images.squarespace-cdn.com/content/v1/5fdb69c8e14b081b226c2f14/1613133155798-QVUJMXTYKGJW6L0Y7FE9/scroll-up-blog.jpg)
+    top no-repeat;
+  background-size: cover;
+}
+
+#hero:before {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero h1 {
+  position: relative;
+  margin: 0;
+  font-size: 7rem;
+  font-weight: 800;
+  line-height: 56px;
+  color: #fff;
+}
+
+#hero p {
+  position: relative;
+  color: #fff;
+  margin: 15px 0 0 0;
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+}
+
+#hero p span {
+  color: #ff004f;
+  letter-spacing: 1px;
+}
+
+#hero .social-links {
+  position: relative;
+  margin-top: 30px;
+}
+
+#hero .social-links a {
+  font-size: 2rem;
+  display: inline-block;
+  color: #fff;
+  line-height: 1;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+#hero .social-links a:hover {
+  cursor: pointer;
+  color: #ff004f;
+}
+
+@media (min-width: 992px) {
+  #hero {
+    padding-left: 160px;
+  }
+}

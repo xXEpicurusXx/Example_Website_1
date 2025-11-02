@@ -1,6 +1,6 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #272829;
+  --foreground: #ededed;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -33,6 +33,29 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  color: aqua;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+section {
+  padding: 60px 0;
+  overflow: hidden;
 }
 
 @media (prefers-color-scheme: dark) {
