@@ -42,3 +42,34 @@ export const navs = [
     active: false,
   },
 ];
+
+export const counterData = [
+  {
+    id: 1,
+    end: 232,
+    duration: 2,
+    icon: "bi bi-emoji-smile",
+    name: "Happy Clents",
+  },
+  {
+    id: 2,
+    end: 521,
+    duration: 2,
+    icon: "bi bi-journal-richtext",
+    name: "Projects",
+  },
+  {
+    id: 3,
+    end: 1463,
+    duration: 2,
+    icon: "bi bi-headset",
+    name: "Hours of Support",
+  },
+  {
+    id: 4,
+    end: 25,
+    duration: 2,
+    icon: "bi bi-award",
+    name: "Awards",
+  },
+];
